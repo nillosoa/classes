@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Last posts...</h1>
+
+<div id='allPosts'>
+{% for post in posts %}
+    <div class="panel">
+        <div class="panel-body">
+            <h3><a href="/post/{{post.slug}}">{{post.title}}</a></h3>
+            <p class="lead">{{post.summary}}</p>
+        </div>
+    </div>
+{% endfor %}
+</div>
+{% endblock %}
