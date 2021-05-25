@@ -1,0 +1,27 @@
+
+.App nav {
+    width: 100%;
+}
+
+.App nav ul {
+    margin: 16px 0px;
+    padding: 0px 0px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.App nav li {
+    margin: 0 5px;
+}
+
+.App nav li a {
+    color: #6d719b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.App nav li a:hover,
+.App nav li a:active {
+    color: #cccccc;
+}

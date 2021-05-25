@@ -1,0 +1,8 @@
+
+.UserOutput {
+  /* Add ellipsis if too long */
+  margin: 36px;
+  overflow: hidden;
+  /*white-space: nowrap;*/
+  text-overflow: ellipsis;
+}
